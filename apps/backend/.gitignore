@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.template
+.medusa/
+/medusa
+/static
