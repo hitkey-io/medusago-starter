@@ -2,7 +2,7 @@ module backend
 
 go 1.26.0
 
-require github.com/hitkey-io/medusago v0.0.0-20261110180956-dd0eae3ba11e
+require github.com/hitkey-io/medusago v0.1.0
 
 require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
