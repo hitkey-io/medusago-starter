@@ -2,7 +2,7 @@ module backend
 
 go 1.26.0
 
-require github.com/hitkey-io/medusago v0.2.0
+require github.com/hitkey-io/medusago v0.3.0
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.48.0 // indirect
