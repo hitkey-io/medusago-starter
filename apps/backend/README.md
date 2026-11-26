@@ -26,4 +26,15 @@ come from `.env` (see `.env.template`).
 ## Customizations
 
 `src/` mirrors a Medusa project (`api`, `jobs`, `links`, `modules`, `scripts`,
-`subscribers`, `workflows`, `admin`).
+`subscribers`, `workflows`, `admin`). Go doesn't load files at run time, so
+`main.go` registers what the project adds to the CLI.
+
+The project comes with:
+
+- `src/migration-scripts`: the data migration scripts that `db:migrate` runs
+  once. `initial-data-seed` creates the store, a region, shipping options and
+  four demo products; `region-store-policies` adds the store policy values
+  that the storefront reads from each region's metadata.
+- `src/search/product.go`: the `product` search index that the storefront
+  searches and filters, with a price per currency.
+- `src/api/middlewares.go`: opens the `product` index to `/store/search`.

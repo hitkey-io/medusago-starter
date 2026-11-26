@@ -47,8 +47,8 @@ github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f h1:lO4WD4F/r
 github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f/go.mod h1:cuUVRXasLTGF7a8hSLbxyZXjz+1KgoB3wDUb6vlszIc=
 github.com/dlclark/regexp2 v1.11.5 h1:Q/sSnsKerHeCkc/jSTNq1oCm7KiVgUMZRDUoRu0JQZQ=
 github.com/dlclark/regexp2 v1.11.5/go.mod h1:DHkYz0B9wPfa6wondMfaivmHpzrQ3v9q8cnmRbL6yW8=
-github.com/hitkey-io/medusago v0.8.0 h1:mdiMOdAL3xBzu0CgJrIOkffCA/eqpxJ+IMG/sak8Wok=
-github.com/hitkey-io/medusago v0.8.0/go.mod h1:B+Pa47QB4KQKelWfbWzYO9LKExubAGN8P99JYTgXrX8=
+github.com/hitkey-io/medusago v0.8.1 h1:U0UmuR7eHcrWvj63ADeFdnj3C+t67vHVP96wU9sJoac=
+github.com/hitkey-io/medusago v0.8.1/go.mod h1:B+Pa47QB4KQKelWfbWzYO9LKExubAGN8P99JYTgXrX8=
 github.com/jackc/pgpassfile v1.0.0 h1:/6Hmqy13Ss2zCq62VdNG8tM1wchn8zjSGOBJ6icpsIM=
 github.com/jackc/pgpassfile v1.0.0/go.mod h1:CEx0iS5ambNFdcRtxPj5JhEz+xB6uRky5eyVu/W2HEg=
 github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 h1:iCEnooe7UlwOQYpKFhBabPMi4aNAfoODPEFNiAnClxo=

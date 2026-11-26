@@ -2,7 +2,7 @@ module backend
 
 go 1.26.0
 
-require github.com/hitkey-io/medusago v0.8.0
+require github.com/hitkey-io/medusago v0.8.1
 
 require (
 	github.com/andybalholm/brotli v1.2.1 // indirect
